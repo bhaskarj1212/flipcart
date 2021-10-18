@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: #2874f0;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+ nav{
+   display: flex;
+   justify-content: flex-start;
+    align-items: center;
+ } 
+
+nav ul{
+      height: 8vh;
+      display: flex;
+      justify-content: flex-start;
+       align-items: center;
+}
+li{
+    list-style: none;
+    padding:0 23px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+.logo img{
+    width: 100px;
+    padding: 0px 15px;
+    margin-top: 3px;
+    margin-left: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+
+}
+body{
+    background: rgb(102, 226, 119);
+}
+.search input{
+    width: 30vw;
+     height: 3vh;
+     border-radius: 5px;
+     margin: 0px 15px 0px 42px;
+     padding: 0px 11px;
+}
+.btn {
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    min-height: calc(100vh - 8vh - 10vh);
+}
+.slider{
+    margin: auto;
+    width: 60vw;
+    margin: 15px auto;
+}
+.cart { 
+   overflow: hidden;
+    margin: auto;
+    max-width: 1425px;
+    font-family: 'Lato', sans-serif;
+}
+footer{
+    background: gray;
+    height: 10vh;
+    color: wheat;
+    font-family: 'Lato', sans-serif;
+}

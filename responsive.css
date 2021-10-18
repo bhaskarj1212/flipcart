@@ -1,0 +1,35 @@
+@media screen and (max-width:1000px) {
+    body{
+    background: wheat;
+    width: 100vw;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .search input{
+        margin-bottom: 15px;
+    }
+    .btn{
+        margin-bottom: 15px;
+    }
+    .logo img{
+        margin-top: 15px;
+    }
+    .slider img{
+        width: 30vw;
+        height: 50vh ;
+    }
+    ul{
+        height: 12vh;
+    }
+    nav ul{
+        height: 5vh;
+    }
+    .slider{
+        margin: 9px;
+    }
+    .slider img{
+        width: 94vw;
+    }
+   
+}
